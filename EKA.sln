@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30709.132
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EKA", "EKA\EKA.csproj", "{C6685B4C-7E07-4C69-A2AA-5E644951ACC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EKA.Tests", "EKA.Tests\EKA.Tests.csproj", "{C5975265-8D02-4DBA-BA54-F28D40BA82C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C6685B4C-7E07-4C69-A2AA-5E644951ACC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6685B4C-7E07-4C69-A2AA-5E644951ACC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6685B4C-7E07-4C69-A2AA-5E644951ACC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5975265-8D02-4DBA-BA54-F28D40BA82C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5975265-8D02-4DBA-BA54-F28D40BA82C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5975265-8D02-4DBA-BA54-F28D40BA82C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5975265-8D02-4DBA-BA54-F28D40BA82C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

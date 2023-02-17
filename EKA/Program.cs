@@ -1,37 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EKA
 {
 	class Program
 	{
-		const int M = 4;
-		static Dictionary<int, string> keyValuePairs = new Dictionary<int, string>();
-		static int[] numbers = { 10, 1, 2, 3, 4, 5 };
-		static Action<int[], int>[] delegateHelper = new Action<int[], int>[] { CheckArrayForZeroValue, DoNothing };
+		const int M = 8;
+		static int[] numbers = { 10, 1, 2, 11, 3, 4, 11, 5 }; //по условию нам не надо дополнять программу вводом, нужен лишь сам код. 
 
 		static void Main(string[] args)
 		{
-			keyValuePairs[0] = "No";
-			int n = 0;
-			CheckArrayForZeroValue(numbers, n);
-			Console.Write(keyValuePairs[0]);
+			Console.WriteLine(Evaluation.CheckForZero(numbers, M));
 			Console.ReadKey();
-		}
-
-		static void DoNothing(int[] arr, int n)
-		{
-
-		}
-
-		static void CheckArrayForZeroValue(int[] arr, int n)
-		{
-			keyValuePairs[arr[n++]] = "Yes";
-
-			delegateHelper[n/M](arr, n);
 		}
 	}
 }
